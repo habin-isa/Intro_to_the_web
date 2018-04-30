@@ -1,15 +1,7 @@
-<% if @name == nil %>
-  <form>
-    <input type="text" name="names"><br>
-    <input type="submit" value="submit"><br>
-  </form>
-<% end %>
-
-
 <div style = 'border: 3px dashed red'>
 <img src = 'http://bit.ly/1eze8aE' >
 </div>
 
 <% if @name %>
-<h1> Hi, my name is <%= @name %> </h1>
+  <h1> Hi, my name is <%= @name %> </h1>
 <% end %>
